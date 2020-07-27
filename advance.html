@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styleSheet/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  </head>
+  <body>
+    <div style="height: 20px;">
+      <a href="images.html" class="link">Images</a>
+      <a href="index.html" class="link">Search</a>
+    </div>
+    <div class="advancedSearchContainer">
+      <p style="color: #d93025;">Advanced Search</p>
+    </div>
+    <hr style="border-top: thin;" />
+    <div class="advancedSearchContainer">
+      <form action="https://google.com/search">
+        <div style="padding-bottom: 24px;">
+          <label style="font-size: 16px;">Find pages with...</label>
+        </div>
+        <div>
+          <div class="labelContainer">
+            <div class="labelStyle">
+              <label>all these words:</label>
+            </div>
+          </div>
+          <div class="advancedInputContainer">
+            <input class="advancedInputField" type="text" name="as_q" />
+          </div>
+          <div class="sideNoteContainer">
+            <div class="labelStyle">
+              <span style="vertical-align: middle;">Type the important words:</span>
+              <span style="font-family: monospace; vertical-align: middle;"
+                >tri-color rat terrier</span
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="labelContainer">
+            <div class="labelStyle">
+              <label>this exact word or phrase:</label>
+            </div>
+          </div>
+          <div class="advancedInputContainer">
+            <input class="advancedInputField" type="text" name="as_epq" />
+          </div>
+          <div class="sideNoteContainer">
+            <div class="labelStyle">
+              <span style="vertical-align: middle;">Put exact words in quotes:</span>
+              <span style="font-family: monospace; vertical-align: middle;">"rat terrier"</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="labelContainer">
+            <div class="labelStyle">
+              <label>any of these words:</label>
+            </div>
+          </div>
+          <div class="advancedInputContainer">
+            <input class="advancedInputField" type="text" name="as_oq" />
+          </div>
+          <div class="sideNoteContainer">
+            <div class="labelStyle">
+              <span style="vertical-align: middle;">Type OR between all the words you want:</span>
+              <span style="font-family: monospace; vertical-align: middle;"
+                >miniature OR standard</span
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="labelContainer">
+            <div class="labelStyle">
+              <label>none of these words:</label>
+            </div>
+          </div>
+          <div class="advancedInputContainer">
+            <input class="advancedInputField" type="text" name="as_eq" />
+          </div>
+          <div class="sideNoteContainer">
+            <div class="labelStyle">
+              <span style="vertical-align: middle;"
+                >Put a minus sign just before words that you don't want:</span
+              >
+              <span style="font-family: monospace; vertical-align: middle;"
+                >-rodent, -Jack Russell</span
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="labelContainer"></div>
+          <div class="advancedInputContainer">
+            <input class="advancedSearchButton" type="submit" value="Advance Search" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
